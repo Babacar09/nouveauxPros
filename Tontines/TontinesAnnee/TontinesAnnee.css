@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: 10%;
+    margin-top: 45%;
+}
+.container h2{
+    font-size: 17PX;
+    /* text-align: center; */
+}
+.container #nombre{
+    width: 80%;
+}
+.container #select{
+    width: 80%;
+}
+.container #monsubmit{
+    width: 80%;
+}
