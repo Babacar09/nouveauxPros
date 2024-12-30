@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    border: 10px solid rgb(244, 244, 244);
+    height: auto;
+    width: 335PX;
+    
+    margin-top: 50PX;
+    border-radius: 10PX;
+    box-shadow: 10PX, 10PX, 10PX, 10PX rgba(55, 55, 55, 0.943)
+
+}
+.container ul{
+    list-style: none;
+    color: #000;
+}
+.block1{
+    align-items: center;
+    /* display: flex; */
+}
+.block1 .settings{
+    
+    border-radius: 50%;
+    width: 9PX;
+    height: 9px;
+}
+.block1 .compte{
+    border-radius: 50%;
+    width: 9PX;
+    height: 9px;
+
+}
+
+.settings img{
+    border: 1PX solid #ffffff;
+    border-radius: 50%;
+    width: 22PX;
+    height: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 34PX;
+    margin-left: 8PX;
+}
+ .chiffre{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    font-size: 25PX;
+    text-shadow: rgba(0, 0, 0, 0.6);
+    /* background: blue; */
+    font-weight: bold;
+
+}
+.chiffre img{
+    border: 1PX solid #ffffff;
+    border-radius: 50%;
+    width: 22PX;
+    height: 22px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 24PX;
+    margin-left: 8PX;
+}
+.block2{
+    border: 1px solid rgba(75, 75, 164, 0.721);
+    height: 150PX;
+    width: 230PX;
+    background: #08c1de;
+    margin-left: 25PX;
+    border-radius: 10PX;
+
+}
+.block2 img{
+    background-size: cover;
+    width: 230PX;
+    height: 150PX;
+    border-radius: 10PX;
+    border: none;
+
+}
+.carte{
+    border: none;
+}
+.block3{
+border: none;
+background: #fff;
+
+
+}
+.block4{
+    background: #fff;
+    
+}
+
+.block3 li{
+    background: white;
+    
+}
+.block4 li{
+    background: white;
+    
+}
+.menu1 {
+    display: flex;
+    /* margin-left: 7PX; */
+    padding: 10PX;
+    margin-top: 12PX;
+    font-size: 20PX;
+
+}
+.Transfert{
+    margin-right: 28PX;
+}
+.Transfert img{
+    border-radius: 50%;
+    width: 42PX;
+    height: 42PX;
+    margin-left: 12PX;
+    border: 2PX solid rgb(10, 109, 129);
+    cursor: pointer;
+}
+.paiement{
+    margin-right: 28PX;
+}
+.paiement img{
+    border-radius: 50%;
+    width: 42PX;
+    height: 42PX;
+    margin-left: 12PX;
+    border: 2PX solid rgb(10, 109, 129);
+    cursor: pointer;
+}
+.credits img{
+    border-radius: 50%;
+    width: 42PX;
+    height: 42PX;
+    margin-left: 12PX;
+    border: 2PX solid rgb(10, 109, 129);
+    cursor: pointer;
+}
+.banque img{
+    border-radius: 50%;
+    width: 42PX;
+    height: 42PX;
+    margin-left: 12PX;
+    border: 2PX solid rgb(10, 109, 129);
+    cursor: pointer;
+}
+.cadeaux img{
+    border-radius: 50%;
+    width: 42PX;
+    height: 42PX;
+    margin-left: 12PX;
+    border: 2PX solid rgb(10, 109, 129);
+    cursor: pointer;
+}
+.tontine img{
+    border-radius: 50%;
+    width: 42PX;
+    height: 42PX;
+    margin-left: 12PX;
+    border: 2PX solid rgb(10, 109, 129);
+    cursor: pointer;
+}
+
+.banque{
+    margin-right: 28PX;
+}
+.cadeaux{
+    margin-right: 28PX;
+}
+.menu2{
+    display: flex;
+    margin-left: 7PX;
+    padding: 10PX;
+    margin-top: 0PX;
+    font-size: 20PX;
+
+}
+.block5{
+  
+    background: #FFF;
+    height: auto;
+    display: grid;
+    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
+   
+   
+}
+
+.block5 .montantDesOperations{
+margin-left: 164PX;
+padding-top: 10PX;
+font-size: 17PX;
+color: blue;
+font-weight: bold;
+}
+.block5 .montantDepots{
+    margin-top: 10PX;
+    font-size: 17PX;
+}
+.block5 .dateOperation{
+    display: flex;
+}
+.block5 h3{
+    color: blue;
+}
+.block5 .montantOperation{
+    margin-left: 280PX;
+    margin-top: 15PX;
+    font-size: 18PX;
+    font-weight: 600;
+    color: blue;
+}
+button{
+    margin-left: 30%;
+}

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: popins;
+    box-sizing: border-box;
+}
+body{
+    background: #1e1f21;
+    color: #fff;
+}
+.wrapper{
+    padding: 10PX 20%;
+}
+#card-area{
+    padding: 5PX 0;
+}
+.box-area{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250PX, 1PX));
+    grid-gap: 40PX;
+    margin-top: 50PX;
+
+}
+.box{
+    border-radius: 10PX;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 5PX 5PX 15PX rgba(0, 0, 0, 0.5);
+    /* height: 400PX; */
+}
+.box img{
+    width: 100%;
+    display: block;
+    border-radius: 10PX;
+     transition: transform 0.5s; 
+    /* margin-top: 52PX; */
+   
+}
+.overlay{
+    height: 0;
+    width: 100%;
+    background: linear-gradient(transparent, #1c1c1c 58%);
+    border-radius: 10PX;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40PX;
+    text-align: center;
+    font-size: 14PX;
+     transition: height 0.5s; 
+    
+}
+.overlay h3{
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-bottom: 80%;
+    font-family: bebas neue;
+    font-size: 30PX;
+    letter-spacing: 2PX;
+}
+.overlay a{
+    margin-top: 10PX;
+    color: #262626;
+    text-decoration: none;
+    font-size: 14px;
+    background: #fff;
+    border-radius: 50PX;
+    text-align: center;
+    padding: 5PX 15PX;
+    cursor: pointer;
+    
+
+}
+.overlay a:hover{
+    background: #3e074f;
+   
+   
+}
+.boxLhover img{
+    transform: scale(1.2);
+   
+}
+.box:hover .overlay{
+    height: 100%;
+ 
+}
+
+
+
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-left: 30%;
+}
+.container .sontitres{
+    font-size: 15PX;
+    font-weight: 700;
+    margin-top: 105PX;
+    text-align: center;
+    
+
+}
+.container .mesOptions{
+    align-items: center;
+    margin-top: 23PX;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 25PX;
+  
+}
+.container .differentsOptions{
+    border: 2PX solid #508ddc;
+    width: 100PX;
+    height: 100px;
+    border-radius: 50%;
+    background: rgba(244, 244, 244, 0.189);
+    box-shadow: 5PX 5PX 5PX 5PX #d7d9db;
+}
+ .differentsOptions  .monAnnee{
+   margin-left: 20PX;
+   margin-top: 20PX;
+   font-size: 20PX;
+   font-weight: 600;
+   color: rgb(162, 201, 226);
+   
+   
+}
+.differentsOptions  .monJour{
+    margin-left: 20PX;
+    margin-top: 20PX;
+    font-size: 20PX;
+    font-weight: 600;
+}
+.differentsOptions  .maSemaine{
+    margin-left: 20PX;
+    margin-top: 20PX;
+    font-size: 20PX;
+    font-weight: 600;
+}
+.differentsOptions  .monJour{
+    margin-left: 20PX;
+    margin-top: 20PX;
+    font-size: 20PX;
+    font-weight: 600;
+}     */
