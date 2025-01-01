@@ -24,17 +24,17 @@
     
 }
 #monButton{
-    width: 220PX;
+    width: 280PX;
     margin-top: 155PX;
     color: rgb(230,230, 188);
-    font-size: 20PX;
+    font-size: 25PX;
     border-radius: 50PX;
     border: solid #042e4f;
     background: #000;
     font-weight: 600;
-    margin-left: 80PX;
+    margin-left: 30PX;
     height: 48PX;
-    margin-top: 90%;
+    margin-top: 100%;
     text-align: center;
 }
 a{
