@@ -17,8 +17,8 @@
     background-color: #0000004e;
     display: grid;
     grid-template-columns: auto;
-    gap: 20PX;
-    padding-top: 72%;
+    gap: 2PX;
+    padding-top: 52%;
 
 } 
 #monTitre{
@@ -37,7 +37,7 @@
     border: solid #042e4f;
     background: #000;
     font-weight: 600;
-    margin-left: 32PX;
+    margin-left: 52PX;
     height: 48PX;
     margin-top: 11%;
     text-align: center;
@@ -51,7 +51,7 @@
     border: solid #042e4f;
     background: #000;
     font-weight: 600;
-    margin-left: 32PX;
+    margin-left: 52PX;
     height: 48PX;
     margin-top: 0%;
     text-align: center;
