@@ -5,7 +5,7 @@
 }
 .images{
     width: 100%;
-    height: 100vh;
+     height: 100vh; 
     background-position: center;
     background-size: cover;
     background-image: url("./imgAccueil/28894ca8faeeaea078bb90c4bda1c962_ctdk5ste878c73aktf30_image.png");
@@ -13,11 +13,11 @@
 }
  .images-overlay{
      width:100%;
-    height: 100vh; 
-    background-color: #0000004e;
+    /* height: 100vh;  */
+    /* background-color: #0000004e; */
     display: grid;
     grid-template-columns: auto;
-    gap: 2PX;
+    gap: 4PX;
     padding-top: 52%;
 
 } 
