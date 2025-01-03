@@ -80,7 +80,7 @@
       const maConf = confirm('vouler vous confirmer votre abonnement')
     }
     document.addEventListener("DOMContentLoaded", ()=>{
-        const monDate = document.getElementById('madate')
+        const monDate = document.getElementById('startDate')
         const today = new Date().toISOString().split('T')[0]
         monDate.setAttribute('min', today)
     })
